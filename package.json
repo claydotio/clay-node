@@ -1,0 +1,17 @@
+{
+  "name": "clay-encryption",
+  "description": "Backend encryption for the clay.io API",
+  "version": "0.1.0",
+  "author": "Austin Hallock <austinhallock@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com:austinhallock/clay-node.git"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+  },
+  "engines": {"node": ">= 0.4.0"},
+  "keywords": ["clay.io", "clayio", "clay"],
+  "main": "./lib/clay-encryption.js"
+}
