@@ -19,13 +19,13 @@ Piggybacks off of the [jwt-simple](https://github.com/hokaccha/node-jwt-simple)
     var userIdentifier = 'SOME_ID';
 
 	// Create object and store user identifier/secret key
-	clay = new Clay( userIdentifier, userIdentifier );
+	var clay = new Clay( userIdentifier, secretKey );
 
     // Example options for an achievment
     var options = { id: 3 };
 	
     // encode
-    var token = Clay.encode( options );
+    var token = clay.encode( options );
     
 	// Send token as part of options, so client-side: 
 	// achievement = new Clay.achievement( { jwt: tokenFromServer } );
