@@ -10,7 +10,7 @@ Piggybacks off of the [jwt-simple](https://github.com/hokaccha/node-jwt-simple)
 
 ## Usage
 
-    var Clay = require('jwt-simple');
+    var Clay = require('clay-encryption');
     
     // Your clay.io secret key
     var secretKey = 'SECRET_KEY';
