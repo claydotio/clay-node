@@ -6,7 +6,7 @@ Piggybacks off of the [jwt-simple](https://github.com/hokaccha/node-jwt-simple)
 
 ## Install
 
-    $ npm install node-encryption
+    $ npm install clay-encryption
 
 ## Usage
 
